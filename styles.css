@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --Tomato: hsl(4, 100%, 67%);
+    --Dark-Slate-Grey: hsl(234, 29%, 20%);
+    --Charcoal-Grey: hsl(235, 18%, 26%);
+    --Grey: hsl(231, 7%, 60%);
+    --White: hsl(0, 0%, 100%);
+}
+
+* {
+    box-sizing: border-box;
+    color: var(--Dark-Slate-Grey);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 16px;
+    background-color: var(--Charcoal-Grey);
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--White);
+    padding: 10px;
+    margin: 15px;
+    width: 800px;
+    border-radius: 30px;
+}
+
+.left-container {
+    margin: 30px;
+}
+
+.right-container img {
+    height: 500px;
+}
+
+.left-container h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.info {
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.new-line {
+    margin-top: 3px;
+    font-size: 14px;
+}
+
+.list-img {
+    height: 15px;
+    margin-right: 10px;
+}
+
+.email {
+    font-size: 13px;
+    font-weight: 1000;
+    margin-top: 30px;
+}
+
+input, 
+#subscribing-btn {
+    display: block;
+    padding: 18px;
+    width: 330px;
+    margin: 10px 0px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+input {
+    border: 1px solid rgba(128, 128, 128, 0.499);
+}
+
+#subscribing-btn {
+    background-color: var(--Dark-Slate-Grey);
+    color: white;
+    border: none;
+    margin-top: 20px;
+}
+
+#subscribing-btn:hover {
+    background-image: linear-gradient(to left,hsl(4, 100%, 56%),hsl(4, 100%, 67%))
+}
+
+.card-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.thanks-mess {
+    margin: 30px;
+}
+
+.thanks-mess img {
+    height: 50px;
+}
+
+.thanks-mess h1 {
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.thanks-mess p {
+    font-size: 13px;
+}
+
+#dismiss-btn {
+    display: block;
+    padding: 18px;
+    width: 300px;
+    margin-top: 30px;
+    border-radius: 6px;
+    background-color: var(--Dark-Slate-Grey);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.hide {
+    display: none;
+}
+
+
+
+
+
+
+
+
